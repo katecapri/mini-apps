@@ -1,5 +1,7 @@
 """
 Based on the information entered by the user, the location and magnitude of earthquakes are displayed.
+Format for dates: YYYY-MM-DD
+Format for other fields: float with '.'
 """
 
 import requests
