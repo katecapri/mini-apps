@@ -1,3 +1,7 @@
+"""
+The application parses the site mk.ru and generates a csv file with jokes from the site.
+"""
+
 import csv
 import requests
 from bs4 import BeautifulSoup
@@ -11,6 +15,6 @@ with open('jokes.csv', 'w') as file:
     csv_writer.writeheader()
     for joke in jokes:
         csv_writer.writerow({
-            'Date': '\n'+joke.h2.text,
+            'Date': '\n' + joke.h2.text,
             'Joke': joke.find(class_='listing-preview__desc').text
         })
