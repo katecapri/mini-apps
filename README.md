@@ -15,6 +15,7 @@ The script converts data from json format to xlsx tables.
 * * *
 ### tg-bot-hangman-game:
 Telegram bot where you can play hangman. 
+You can play the game in telegram @Hangman_game_on_python_bot 
 * * *
 ### jokes_from_mkru_to_csv.py:
 The application parses the site mk.ru and generates a csv file with jokes from the site.
